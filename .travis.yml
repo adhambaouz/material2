@@ -14,7 +14,7 @@ cache:
 
 env:
   global:
-  - LOGS_DIR=/tmp/angular-material-build/logs
+  - LOGS_DIR=/tmp/angular-material2-build/logs
   - SAUCE_USERNAME=angular-ci
   - SAUCE_ACCESS_KEY=REDACTED_USE_PRIVATE_CONFIGURATION
   - BROWSER_STACK_USERNAME=angularteam1
