@@ -5,6 +5,8 @@ export LOGS_DIR=/tmp/angular-material2-build/logs
 export SAUCE_USERNAME=angular-ci
 export SAUCE_ACCESS_KEY=REDACTED_USE_PRIVATE_CONFIGURATION
 export TRAVIS_JOB_NUMBER=12345
+export BROWSER_PROVIDER_READY_FILE=/tmp/angular-material2-build/readyfile
+
 
 mkdir -p $LOGS_DIR
 rm -f $BROWSER_PROVIDER_READY_FILE
