@@ -12,11 +12,7 @@
     "target": "es5",
     "types": [
       "node"
-    ],
-    "baseUrl": ".",
-    "paths": {
-      "material2-build-tools": ["../package-tools/index"]
-    }
+    ]
   },
   "files": [
     "gulpfile.ts"
