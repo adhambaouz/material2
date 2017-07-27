@@ -6,6 +6,4 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-
-// TODO(jelbourn): add version here
-export const __TMP__ = 0;
+export * from './version';
