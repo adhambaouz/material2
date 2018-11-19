@@ -149,6 +149,9 @@ jobs:
     environment:
       SAUCE_USERNAME: "angular-ci"
       SAUCE_ACCESS_KEY: "REDACTED_USE_PRIVATE_CONFIGURATION"
+      # Note: This number should not be too high because otherwise we might run into
+      # a rate limit exception.
+      KARMA_PARALLEL_BROWSERS: 2
     steps:
     - *checkout_code
     - *restore_cache
