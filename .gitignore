@@ -34,3 +34,14 @@ node_modules
 npm-debug.log
 testem.log
 /.chrome
+
+# Keep credentials and personal records out of Git.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pfx
+*.p12
+id_rsa
+id_ed25519
